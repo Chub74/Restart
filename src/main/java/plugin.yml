@@ -1,0 +1,15 @@
+name: Restart
+version: 1.0.0
+author: ok
+prefix: Restart
+api-version: '1.21'
+
+main: ch.Restart.Main.Main
+
+commands:
+  srestart:
+    description: Starts a server restart countdown.
+    usage: /srestart <seconds>
+  cancelrestart:
+    description: Cancels the active server restart countdown.
+    usage: /cancelrestart
